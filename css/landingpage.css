@@ -1,0 +1,139 @@
+
+body{
+   font-family: 'EdelmanChromatic-GrotesqueRegular';
+}
+
+.product-big{
+    background-color: grey;
+    width: 70%;
+    margin-left: 15%;
+    height: auto;
+}
+
+.product-med{
+    background-color: grey;
+    width: 45%;
+    margin-left: 0;
+    height: auto;
+}
+
+.right .product-med{
+    margin-left: 55% !important;
+}
+
+.product-med img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-big img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-small img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-name{
+    display: block;
+    text-align: center;
+    font-size: 1.6em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-name-left{
+    display: block;
+    font-size: 1.6em;
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+
+.product-name-right{
+    display: block;
+    font-size: 1.6em;
+    margin-top:20px;
+    margin-left: 55%;
+    margin-bottom: 50px;
+}
+
+.product-one .right{
+    margin-left: 50%;
+    margin-top: -350px;
+    margin-bottom: 100px;
+}
+
+.product-three .right{
+    margin-left: 50%;
+    margin-top: -350px;
+    margin-bottom: 100px;
+}
+
+.right .product-small{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.product-two .left{
+    margin-top: -350px;
+    margin-bottom: 100px;
+}
+
+.left .product-small{
+    margin-bottom: 50px;
+}
+
+.two-up{
+    width: 70%;
+    margin-left: 15%;
+    display: inline-flex;
+    margin-bottom: 150px;
+}
+
+.product-small{
+    background-color: grey;
+    width: 50%;
+    margin-right: 10px;
+    height: auto;
+}
+
+.full-width-img{
+    background-color: grey;
+    width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+}
+
+.full-width-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#text-overlay{
+    color: rgb(255, 255, 255);
+    z-index: 100;
+    margin-top: -600px;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 50vh;
+}
+
+.readmore{
+    font-size: 0.8rem;
+    padding: 0.7rem 1.5rem;
+    margin-top: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    background-color: transparent;
+}
+
+.caption-links{
+    color: white;
+    margin-top: -30px;
+    margin-left: 20px;
+}
