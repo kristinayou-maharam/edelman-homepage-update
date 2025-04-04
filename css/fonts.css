@@ -149,6 +149,42 @@
     font-style: normal;
 }
 
+@font-face {
+	font-family: 'SignifierRegular';
+	src:
+		url('../fonts/test-signifier-regular.woff2') format('woff2');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'SignifierThin';
+	src:
+		url('../fonts/test-signifier-thin.woff2') format('woff2');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'FamilyLight';
+	src:
+		url('../fonts/test-family-light.woff2') format('woff2');
+	font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'FamilyRegular';
+	src:
+		url('../fonts/test-family-regular.woff2') format('woff2');
+	font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
 
 
 

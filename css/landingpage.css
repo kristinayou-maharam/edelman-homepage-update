@@ -63,28 +63,47 @@ body{
 }
 
 .product-one .right{
-    margin-left: 50%;
-    margin-top: -350px;
+    margin-left: 65%;
+    margin-top: -300px;
     margin-bottom: 100px;
+    transition-delay: 0.5s;
+}
+
+.product-one .left{
+    position: sticky;
+    transition-delay: 0.5s;
+    top: 50px;
+}
+
+.product-two .right{
+    position: sticky;
+    transition-delay: 0.5s;
+    top: 50px;
+}
+
+.product-three .left{
+    position: sticky;
+    transition-delay: 0.5s;
+    top: 50px;
 }
 
 .product-three .right{
-    margin-left: 50%;
-    margin-top: -350px;
+    margin-left: 65%;
+    margin-top: -300px;
     margin-bottom: 100px;
 }
 
 .right .product-small{
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .product-two .left{
-    margin-top: -350px;
+    margin-top: -300px;
     margin-bottom: 100px;
 }
 
 .left .product-small{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .two-up{
@@ -95,11 +114,17 @@ body{
 }
 
 .product-small{
-    background-color: grey;
+    width: 35%;
+    margin-right: 10px;
+    height: auto;
+}
+
+.two-up .product-small{
     width: 50%;
     margin-right: 10px;
     height: auto;
 }
+
 
 .full-width-img{
     background-color: grey;
@@ -133,7 +158,9 @@ body{
 }
 
 .caption-links{
-    color: white;
-    margin-top: -30px;
-    margin-left: 20px;
+    font-family: 'FamilyLight';
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 12px;
 }
